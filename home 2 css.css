@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    background: url('background_dumbbells.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.header{
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.title{
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    color:rgb(60,124,220);
+    font-weight: bolder;
+
+     text-shadow:
+       3px 3px 0 rgb(65, 60, 60),
+     -1px -1px 0 rgb(65, 60, 60),  
+      1px -1px 0 rgb(65, 60, 60),
+      -1px 1px 0 rgb(65, 60, 60),
+       1px 1px 0 rgb(65, 60, 60);
+}
+.menu{
+    margin: auto;
+    max-width: fit-content;
+    padding-left: 0px;
+    padding-top: 2%;
+    margin-bottom: 0px;
+
+    list-style: none;
+}
+.menu_button{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+
+    background-color: rgba(247, 247, 247, 0.9);
+
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    font-weight:550;
+    text-decoration: none;
+    color:black;
+
+    padding: 0px 0px 0px 0px;
+}
+
+.activated{
+    background-color: rgb(60,124,220);
+}
+
+.menu_link{
+    display: block;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.sublink{
+    text-align: center;
+}
+
+.link_exception{
+    padding-right: 43px;
+    padding-left: 42px;
+}
+
+.menu_link:hover{
+    color: black;
+    background:rgb(183, 211, 253);
+    transition: all 0.3s linear;
+}
+
+.submenu{
+    background: rgba(247, 247, 247, 0.9);
+
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0px;
+
+    z-index: 2;
+}
+.menu_button:hover .submenu{
+    display: block;	
+}
+
+.mainpage{
+    width: auto;
+    background-color: rgba(247, 247, 247, 0.9);
+    text-align: left;
+
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+
+    -webkit-box-shadow: 16px 16px 45px -19px rgba(0,0,0,0.65);
+    -moz-box-shadow: 16px 16px 45px -19px rgba(0,0,0,0.65);
+    box-shadow: 16px 16px 45px -19px rgba(0,0,0,0.65);  
+}
+
+.item_title{
+    padding-top: 10px;
+
+    font-family: "Cabin", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(60,124,220);
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 500;
+
+    padding-top: 0px;
+}
+
+.item_text{
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    text-align: justify;
+}
+
+.item_image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    max-width: 80%;
+
+    display: block;
+}
+
+.img_desc{
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    font-style: italic;
+    color: rgb(120, 120, 153);
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    width: 35%;
+
+    display: block;
+}
+
+.img_desc a{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+    color:rgb(73, 73, 195);
+}
+
+.img_desc a:hover{
+    color:rgb(37, 7, 61);
+}
+
+.item_list{
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    text-align: justify;
+}
+
+.item_list li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item_split{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-style: solid;
+    color: rgb(225, 225, 233);
+    border-width: 2px;
+}
+
+.item_video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 60%; 
+    height: 0;
+}
+
+.item_video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.item_form{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+    font-family: 'Source Sans Pro';
+}
+
+.item_label{
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+
+    vertical-align: middle;
+}
+
+.item_input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    vertical-align: middle;
+
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+
+    height: 25px;
+
+    -webkit-box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+    -moz-box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+    box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+}
+
+.cbox{
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    vertical-align: bottom;
+}
+
+.item_button{
+    background-color: rgba(225, 225, 233, 0.9);
+    border: none;
+
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+    font-size: 2.6vh;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.item_button:hover{
+    color: black;
+    background:rgba(183, 211, 253, 0.9);
+    transition: all 0.3s linear;
+}
+
+.item_button:focus{
+    outline: 0;
+}
+
+.item_select{
+
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+    outline: none;
+
+    -webkit-box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+    -moz-box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+    box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+}
+
+.item_select option{
+    
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+
+    -webkit-box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+    -moz-box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+    box-shadow: 9px 11px 30px -8px rgba(0,0,0,0.4);
+}
+
+.item_warning{
+
+    display: none;
+
+    margin-top: 0px;
+
+    color: rgb(255, 0, 0);
+    font-size: 2vh;
+}
+
+.empty_bar{
+    margin-top: 4vh;
+}
+
+.hidden{
+    display: none;
+}
+
+/*CSS pentru quiz*/
+
+.item_quiz_list{
+    list-style: none;
+
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.quiz{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.shortsplit{
+    width: 40%;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: inherit;
+}
+
+.item_quiz_question{
+    font-family: 'Source Sans Pro';
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.quiz_label{
+    margin-left: 2vw;
+    font-size: 2.5vh;
+    font-weight: normal;
+}
+
+.left_aligned{
+    text-align: left;
+    width: auto;
+}
+
+/*CSS pentru highlight*/
+
+.highlight{
+
+    background-color: rgb(60,124,220);
+    color: white;
+}
+
+/*CSS pentru blocul informativ*/
+
+.news_block_class{
+
+    border-style: dashed;
+    border-width: 1.5px;
+    
+    padding: 2vh;
+}
+
+.news_title{
+
+    margin-top: 0; 
+}
+
+/*media query*/
+
+@media screen and (max-width: 828px){ /*cand meniul ar deveni mai lat decat chenarul alb de continut*/
+    
+    .menu{
+        padding-top: 0px;
+    }
+    
+    .menu_button{
+        display: block;
+    }
+
+    .menu_link{
+        width: 96vw;
+        text-align: center;
+    }
+    
+    .title{
+        font-size: 10vw;
+    }
+    
+
+    .item_title{
+        font-size: 7vw;
+    }
+
+    .subtitle{
+        font-size: 6vw;
+    }
+
+    .mainpage{
+        margin: 0px;
+    }
+}

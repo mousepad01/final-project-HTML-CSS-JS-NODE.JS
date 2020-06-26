@@ -1,0 +1,125 @@
+{
+    "search_history": [
+        {
+            "id": "07a61b52-f199-41d1-bf0a-49b194ebaeff",
+            "logName": "#CREATOR OF THIS SITE ---STANCIU ANDREI CĂLIN github: mousepad01",
+            "gender": "male",
+            "age": "19",
+            "height": "181",
+            "weight": "81",
+            "activity_level": "mid",
+            "bmr": 1891.73,
+            "totalKCAL": 3329.4448
+        },
+        {
+            "id": "b9154c05-c15d-4a39-8dd8-9091f1264f69",
+            "logName": "Bodybuilder",
+            "gender": "male",
+            "age": "25",
+            "height": "185",
+            "weight": "100",
+            "activity_level": "high",
+            "bmr": 2104.005,
+            "totalKCAL": 4734.0112500000005
+        },
+        {
+            "id": "931c00cb-78c3-46a9-8526-73e4235f6f78",
+            "logName": "Gigel",
+            "gender": "male",
+            "age": "23",
+            "height": "177",
+            "weight": "64",
+            "activity_level": "mid",
+            "bmr": 1649.495,
+            "totalKCAL": 2523.7273499999997
+        },
+        {
+            "id": "1fc199ac-f552-4b58-ae41-edde5fafaed9",
+            "logName": "Vlad",
+            "gender": "male",
+            "age": "34",
+            "height": "182",
+            "weight": "73",
+            "activity_level": "mid",
+            "bmr": 1723.665,
+            "totalKCAL": 3878.24625
+        },
+        {
+            "id": "77a3ae4e-2da1-4285-a2b5-947feaed2468",
+            "logName": "Normal adult",
+            "gender": "male",
+            "age": "30",
+            "height": "175",
+            "weight": "70",
+            "activity_level": "low",
+            "bmr": 1671.2800000000002,
+            "totalKCAL": 2557.0584000000003
+        },
+        {
+            "id": "09ac44ab-c374-4286-8ab7-45a9ce877848",
+            "logName": "Ion",
+            "gender": "male",
+            "age": "80",
+            "height": "170",
+            "weight": "100",
+            "activity_level": "high",
+            "bmr": 1727.7800000000002,
+            "totalKCAL": 3887.5050000000006
+        },
+        {
+            "id": "8e757556-7cc5-47e9-9530-7058e56aa448",
+            "logName": "to add",
+            "gender": "male",
+            "age": "88",
+            "height": "88",
+            "weight": "88",
+            "activity_level": "mid",
+            "bmr": 1092.12,
+            "totalKCAL": 1922.1311999999998
+        },
+        {
+            "id": "7b514668-32ef-471b-836b-9f939939348b",
+            "logName": "Baba turbata",
+            "gender": "female",
+            "age": "80",
+            "height": "200",
+            "weight": "80",
+            "activity_level": "high",
+            "bmr": 1473.6950000000002,
+            "totalKCAL": 3315.8137500000003
+        },
+        {
+            "id": "9d17f72c-58cd-4cdb-8e01-f8c44ae6b412",
+            "logName": "egreta",
+            "gender": "female",
+            "age": "44",
+            "height": "180",
+            "weight": "75",
+            "activity_level": "low",
+            "bmr": 1500.1349999999998,
+            "totalKCAL": 2295.20655
+        },
+        {
+            "id": "065e991b-462d-4781-a140-33f2576ed418",
+            "logName": "rrr",
+            "gender": "male",
+            "age": "88",
+            "height": "88",
+            "weight": "88",
+            "activity_level": "low",
+            "bmr": 1092.12,
+            "totalKCAL": 1670.9435999999998
+        },
+        {
+            "id": "58012b4d-0f67-4e44-ab58-e31b09b90312",
+            "logName": "tyt",
+            "gender": "female",
+            "age": "88",
+            "height": "88",
+            "weight": "88",
+            "activity_level": "low",
+            "bmr": 990.295,
+            "totalKCAL": 1515.1513499999999
+        }
+    ]
+}

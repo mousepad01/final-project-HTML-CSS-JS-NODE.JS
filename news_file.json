@@ -1,0 +1,28 @@
+{
+    "news_list": [
+        {
+            "id": 0,
+            "title": "DISABLED ARMY VETERAN BREAKS WORLD RECORD BY DEADLIFTING 505KG",
+            "paragraphs": ["Invictus Games athlete Martin Tye performed a successful 505 kilogram seated deadlift, which has now been recognised as a bona fide Guinness World Record.", "Tye was injured in 2009, while serving with the British Army on a tour of Afghanistan. Lance Corporal Tye was guarding a truck when it was struck by a suicide bomber driving another vehicle. The impact paralysed Tye from the waist down.", "He said: 'One thing that's came out of this is that people quite often say, 'you're an inspiration'. I don't feel like an inspiration, but if I can get more people out of their seat doing sport, then I know it's going to help them physically and mentally.'", "Previous world records were:"], 
+            "images": ["deadlift_record.png"],            
+            "lists": [["501 kg in 2020", "500 kg in 2016", "463 kg in 2015", "and so on"]], 
+            "order": ["00", "10", "01", "02", "03", "20"]      
+        },
+        {
+            "id": 1,
+            "title": "Powerlifter Squats 1,036 Pounds, Breaks World Record",
+            "paragraphs": ["Russian powerhouse Andrey Malanichev utterly crushed the world record for the highest unequipped squat on Saturday, racking up almost a half a ton—470 kg, or 1,036 pounds, to be exact.", "Malanichev set his last squat record in February of 2014 at 1,014lbs. But after dominating the platform this past weekend, he now holds the top spot for the entire powerlifting raw category (which includes the squat, bench press, and deadlift), making him the leading powerlifter in the Men’s Raw World Records."], 
+            "images": ["squat_record.jpg", "squat_record_2.jpg"],            
+            "lists": [], 
+            "order": ["10", "00", "11", "01"]     
+        },
+        {
+            "id": 2,
+            "title": "Julius Maddox Officially Breaks the Bench Press World Record at the Arnold Classic",
+            "paragraphs": ["The typical crowds might not have been allowed at the Arnold Classic this year after the expo was cancelled due to the coronavirus, but that doesn't mean that the incredible feats of strength were also cancelled. Powerlifter Julius Maddox broke his own world record in the bench press at the event by lifting a whopping 770 pounds.", "Maddox was the current world record holder for raw bench press, which he first set in August 2019. Maddox beat the previous record holder Kirill Sarychev's 738.5 pound press by hitting 739.6 pounds, then bested his own record in November 2019, when he benched 744.1 pounds at the Rob Hall Classic in Austin, Texas.", "Former World's Strongest Man Eddie Hall (who currently holds the world record for the deadlift) was on-hand and gave his remarks on Maddox's accomplishment on his YouTube channel. The two have trained together, so Hall was standing by to support his friend and witness history."], 
+            "images": ["bench_press_record.png"],            
+            "lists": [], 
+            "order": ["00", "01", "02", "10"]     
+        }
+    ]
+}
